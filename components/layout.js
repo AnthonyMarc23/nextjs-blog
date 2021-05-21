@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
 
 const name = 'Anthony Drummond'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Anthony\'s Portfolio'
 
 const Layout = ({ children, home }) => {
   return (
@@ -14,7 +14,7 @@ const Layout = ({ children, home }) => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Anthony Drummond's Portfolio Website"
         />
         <meta
           property="og:image"
@@ -30,13 +30,12 @@ const Layout = ({ children, home }) => {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/name_header.png"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={186}
+              width={500}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
@@ -44,19 +43,14 @@ const Layout = ({ children, home }) => {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/name_header.png"
                   className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
+                  height={186}
+                  width={500}
                   alt={name}
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
           </>
         )}
       </header>

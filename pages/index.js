@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
@@ -16,34 +17,41 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Anthony, a Front-End Developer who enjoys Vue, React, Next.js, and a host of other fancy shmancy frameworks.</p>
-        <p>I code and game, as well as excel at UX principals. More will come shortly.</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
-        </ul>
-      </section>
-    </Layout>
+    <>
+      <div className={utilStyles.bgWrap}>
+        <Image
+          alt="Retro Background"
+          src="/images/1920x1080_desktop_template.svg"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
+      <Layout home>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
+        <section className={utilStyles.headingMd}>
+          <p>Hello, I'm Anthony, a Front-End Developer who enjoys Vue, React, Next.js, and a host of other fancy shmancy frameworks.</p>
+          <p>I code and game, as well as excel at UX principals. More will come shortly.</p>
+        </section>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+          <h2 className={utilStyles.headingLg}>Blog</h2>
+          <ul className={utilStyles.list}>
+            {allPostsData.map(({ id, date, title }) => (
+              <li className={utilStyles.listItem} key={id}>
+              <Link href={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+            ))}
+          </ul>
+        </section>
+      </Layout>
+    </>
   )
 }
