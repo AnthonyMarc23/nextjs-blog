@@ -7,6 +7,16 @@ import Link from 'next/link';
 const name = 'Anthony Drummond'
 export const siteTitle = 'Anthony\'s Portfolio'
 
+const name_img = 
+  <Image
+  priority
+  src="/images/name_header.png"
+  className={utilStyles.borderCircle}
+  height={186}
+  width={500}
+  alt={name}
+/>
+
 const Layout = ({ children, home }) => {
   return (
     <div className={styles.container}>
@@ -28,27 +38,13 @@ const Layout = ({ children, home }) => {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
-              priority
-              src="/images/name_header.png"
-              className={utilStyles.borderCircle}
-              height={186}
-              width={500}
-              alt={name}
-            />
+            {name_img}
           </>
         ) : (
           <>
             <Link href="/">
               <a>
-                <Image
-                  priority
-                  src="/images/name_header.png"
-                  className={utilStyles.borderCircle}
-                  height={186}
-                  width={500}
-                  alt={name}
-                />
+                {name_img}
               </a>
             </Link>
           </>

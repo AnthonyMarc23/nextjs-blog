@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>Hello, I'm Anthony, a Front-End Developer who enjoys Vue, React, Next.js, and a host of other fancy shmancy frameworks.</p>
+          <p>Hello, I'm Anthony, a Front-End Developer that has experience in Angular, Vue, React, and Next.js.</p>
           <p>I code and game, as well as excel at UX principals. More will come shortly.</p>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
