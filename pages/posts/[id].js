@@ -1,8 +1,8 @@
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
-import Date from '../../components/date';
-import Image from 'next/image';
+// import Date from '../../components/date';
+// import Image from 'next/image';
 import utilStyles from '../../styles/utils.module.css';
 
 export async function getStaticProps({ params }) {
@@ -23,29 +23,17 @@ export async function getStaticPaths() {
 };
 
 export default function Post({ postData }) {
-    return (
-      <>
-        <div className={utilStyles.bgWrap}>
-          <Image
-            alt="Retro Background"
-            src="/images/1920x1080_desktop_template.svg"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-          />
-        </div>
-        <Layout>
-          <Head>
-            <title>{postData.title}</title>
-          </Head>
-          <article>
-            <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-            <div className={utilStyles.lightText}>
-              <Date dateString={postData.date} />
-            </div>
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-          </article>
-        </Layout>
-      </>
-    )
-  }
+  return (
+    <>
+      <Layout>
+        <Head>
+          <title>{postData.title}</title>
+        </Head>
+        <article>
+          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        </article>
+      </Layout>
+    </>
+  )
+}

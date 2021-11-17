@@ -18,35 +18,23 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <>
-      <div className={utilStyles.bgWrap}>
-        <Image
-          alt="Retro Background"
-          src="/images/1920x1080_desktop_template.svg"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-        />
-      </div>
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <section className={utilStyles.headingMd}>
-          <p>Hello, I'm Anthony, a Front-End Developer that has experience in Angular, Vue, React, and Next.js.</p>
-          <p>I code and game, as well as excel at UX principals. More will come shortly.</p>
+        <section>
+          <p>Hello, I'm Anthony, a UX Designer and front-end web developer. I like to work in Next.js, React, and Vue, and also have some skills with Angular.</p>
+          <p>I am diverse in my UX skills, including web design and game design. </p>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <h2 className={utilStyles.headingLg}>Blog</h2>
+          <h2 className={utilStyles.headingLg}>Portfolio</h2>
           <ul className={utilStyles.list}>
-            {allPostsData.map(({ id, date, title }) => (
+            {allPostsData.map(({ id, title }) => (
               <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
             </li>
             ))}
           </ul>
