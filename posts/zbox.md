@@ -1,4 +1,6 @@
-# Zbox
+---
+title: "Zbox"
+---
 
 Current Website: www.zbox.com
 Early Designs: https://www.figma.com/file/O2E3K0lBrh50rzXnMVy7vS1T/Zbox-Comps-9-4-18---Tony?node-id=0%3A2100

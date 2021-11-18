@@ -1,5 +1,5 @@
 ---
-title: 'Game Development'
+title: "Game Development"
 ---
 
 Over the last decade, my self-declared tenure as a game designer has been a self-fulfilling prophecy. Not in a bad way of course. I have spent a lot of time creating and making games for both the digital and physical mediums. Some of my most notable games I will be talking about here.
