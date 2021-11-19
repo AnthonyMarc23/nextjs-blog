@@ -2,8 +2,8 @@
 title: "Zbox"
 ---
 
-Current Website: www.zbox.com
-Early Designs: https://www.figma.com/file/O2E3K0lBrh50rzXnMVy7vS1T/Zbox-Comps-9-4-18---Tony?node-id=0%3A2100
+- Current Website: [Zbox.com](https://www.zbox.com)
+- Early Site Designs: [Figma Mocks](https://www.figma.com/file/SBMGPbcuKX5bKyntuT1dqg4k/Zbox-Comps-copy-Tony?node-id=0%3A50047)
 
 Zbox.com is a website with the intent of being the amazon for heavy machinery. A simple, straight-forward design with colors similar to construction sites was decided upon, while generally keeping the aesthetic similar to [Amazon](https://www.amazon.com/) and [Ebay](https://www.ebay.com). We approached the problem by finding what worked for those sites and using similar approaches to their UI. My role was primarily with the user interface and overall interaction with the main site.
 

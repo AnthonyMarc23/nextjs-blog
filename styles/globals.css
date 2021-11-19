@@ -14,20 +14,32 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 500;
+  color: #839EFC;
+}
+
+h1 {
   font-size: 32px;
   line-height: 36px;
-  color: #839EFC;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
 }
 
 a {
   text-decoration: none;
-  font-family: 'Rajdhani', sans-serif;
   color: #839EFC;
   text-shadow: none;
-  transition: color .3s ease-in-out, text-shadow .2s ease-in-out;
+  transition: color .2s ease-in-out, text-shadow .3s ease-in-out;
 }
 
 a:hover {
