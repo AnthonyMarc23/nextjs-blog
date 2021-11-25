@@ -2,9 +2,23 @@
 title: 'Cybercade'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+# Cybercade Esports Layout
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+Cybercade is a side project I'm working on. The idea was to lay out a potential floorplan for an esports café.
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+### Iconography
+
+I wanted to include this project mainly for its iconography. This was my first project where I spent considerable time creating the symbols and vector models for a floorplan. Each time that something new was needed, I spent time looking at how desktop stations, chairs, tables, and other such objects looked from a top-down stand point. One of the biggest challenges was getting away from the flatness that top-down objects can sometimes end up looking like by using gradients as a form of shading. While nothing seems ground-breaking here, I was able to learn a lot about object representation, including the level of depth I really need when approaching this type of project.
+
+I also learned a lot about vector graphics as well, including line shaping, curves, symmetry, and shading techniques.
+
+### Layout Design
+
+while designing these floor plans, I also picked up some skill about layout and floorplan design, considering how people moved within the flow of a space, and how to best direct people within the confines of a store front. It was an interesting thought exercise, thinking about how to keep the flow of people within certain areas, how they move throughout a space, how visible aspects from an eye-level view would influence where and how they moved, positioning objects within a space for maximum effectiveness of its purpose (Vending Machines, Front Desk, etc.), and placing ads, video screens, and other media where the most amount of eyes can see them.
+
+There were nights where thinking about store layout could turn in to several hours of imagining walking through a floor space, how I would move around these obstacles with as little interference as possible, and creating lanes for accessibility to disabled individuals. Having been my first time, I know there's a lot more to think about with these designs, but I feel like I put myself in the shoes of those that would benefit the most from the layouts I created.
+
+### Logo Design
+
+I also spent some time coming up with color palettes and a logo design for a 80's retro-themed logo and overall vibe. (As you can see, I am really digging the retro vibes at the moment.) The idea was to come up with a racy, retro feel where the lettering had strong, contrasting elements for visual distinction, and the colors could easily be distinguished by color-blind individuals. Thick, gothic letters in black, with the edges highlighted really stood out to me, and I went with the feel. Several ideas were also tossed around for a distinguishing icon; an old-school game control (think an Atari joystick) with neon coloring, combining lettering to create a directional pad; neon triangles of varying colors; and a CE fashioned to appear as an "On" switch. The logo ideas are still being deliberated on, and hopefully a finalized example can be created soon.
+
