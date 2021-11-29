@@ -1,5 +1,6 @@
 ---
 title: "Zbox"
+image: "./public/images/zbox/screenshot-2021-11-21.png"
 description: "Zbox is an ecommerce site for heavy machinery parts that takes a lot of influence from Amazon and McMaster-Carr's websites."
 ---
 

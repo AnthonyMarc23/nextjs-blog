@@ -1,12 +1,12 @@
 ---
 title: "Game Development"
+image: "/public/images/game-dev/level1-composite.png"
+description: "A collection of games that I have worked on in the past decade and beyond."
 ---
 
 Over the last decade, my self-declared tenure as a game designer has been a self-fulfilling prophecy. Not in a bad way of course. I have spent a lot of time creating and making games for both the digital and physical mediums. Some of my most notable games I will be talking about here.
 
 ### 30 Minutes... Or Less!
-
-![30 Minutes... Or Less](C:\Users\siber\OneDrive\Documents\nextjs-blog\public\images\game-dev\game render 01.jpg)
 
 30 Minutes... Or Less! was our first shipped title. It was a top-down 3D delivery driver game, where the goal of the player was to get the delivery to the destination on thirty minutes of game time or less. Minutes were exaggerated seconds, and the fast-pace of the game was to keep the whole premise interesting. Of course, driving safely is completely optional. By hitting ramps, you could perform insane jumps and stunts, that would net you bonuses for time, as well as collecting power-ups and extra cash. The physical goal of the game was to accumulate the most amount of cash each round until you had the high-score for tip money earned.
 
@@ -28,11 +28,9 @@ One of our biggest failures for 30MOL was not properly marketing our game at the
 
 ### Pro Janitor Police
 
-![Pro Janitor Police](C:\Users\siber\OneDrive\Documents\nextjs-blog\public\images\game-dev\StartScreenPJP.png)
-
 Pro Janitor Police, or PJP, was a side-scrolling beat-em-up headed by our artist and animator at the time. We were playing around with a random game name generator at the time, when these three words popped up, and sparked a great amount of momentum and effort to create our next title.
 
-![Level 1](C:\Users\siber\OneDrive\Documents\nextjs-blog\public\images\game-dev\PJPScreen7.jpg)Pro Janitor Police was one of the biggest learning experiences for our team. We set the bar higher for ourselves this run through, as we gave ourselves a goal of featuring our game to the masses at PAX East. I stepped back from my role as a full designer in PJP, and decided to focus my efforts on sound, audio, and level design.
+Pro Janitor Police was one of the biggest learning experiences for our team. We set the bar higher for ourselves this run through, as we gave ourselves a goal of featuring our game to the masses at PAX East. I stepped back from my role as a full designer in PJP, and decided to focus my efforts on sound, audio, and level design.
 
 <img src="C:\Users\siber\OneDrive\Documents\nextjs-blog\public\images\game-dev\Level1_Composite (For level 1 notes).png" alt="Level Design 1" style="zoom:75%;" />
 

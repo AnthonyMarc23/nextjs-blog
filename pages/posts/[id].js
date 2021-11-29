@@ -2,7 +2,7 @@ import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 // import Date from '../../components/date';
-// import Image from 'next/image';
+import Image from 'next/image';
 import utilStyles from '../../styles/utils.module.css';
 
 export async function getStaticProps({ params }) {
@@ -31,6 +31,12 @@ export default function Post({ postData }) {
         </Head>
         <article>
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <Image
+            src={postData.image}
+            height={"100%"}
+            width={"100%"}
+            alt="image"
+          /> 
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
       </Layout>
