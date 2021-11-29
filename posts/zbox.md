@@ -1,6 +1,6 @@
 ---
 title: "Zbox"
-image: "/public/images/zbox/screenshot-2021-11-21.png"
+image: "/../public/images/zbox/screenshot-2021-11-21.png"
 width: 2560
 height: 1310
 description: "Zbox is an ecommerce site for heavy machinery parts that takes a lot of influence from Amazon and McMaster-Carr's websites."
@@ -12,8 +12,6 @@ description: "Zbox is an ecommerce site for heavy machinery parts that takes a l
 Note: I do not have the updated designs to this anymore, only older mock ups and wireframes. The current iteration of the site is still using a lot of my designs.
 
 Zbox.com is a website with the intent of being the amazon for heavy machinery. A simple, straight-forward design with colors similar to construction sites was decided upon, while generally keeping the aesthetic similar to [Amazon](https://www.amazon.com/) and [Ebay](https://www.ebay.com). We approached the problem by finding what worked for those sites and using similar approaches to their UI. My role was primarily with the user interface and overall interaction with the main site.
-
-![]()
 
 One of the major issues we came across early was trying to be unique in our approach without directly copying those ideas used from our sample sites. We took inspiration from other sites like [McMaster-Carr](https://www.mcmaster.com/), which had a product-forward approach and a broad range of categories for all types of hardware. Unfortunately, this was still not cutting the bill. We needed to truly stand above the others. From this arose the idea of the "Garage," a part of the website that would allow the user to save their machines by their VIN's and other identifying machine id's, and search for relevant parts that match that machine from those unique identifiers.
 
