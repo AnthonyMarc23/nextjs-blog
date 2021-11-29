@@ -1,6 +1,8 @@
 ---
 title: "Game Development"
-image: "/public/images/game-dev/level1-composite.png"
+image: "/../public/images/game-dev/level1-composite.png"
+width: 6170
+height: 1579
 description: "A collection of games that I have worked on in the past decade and beyond."
 ---
 
@@ -31,8 +33,6 @@ One of our biggest failures for 30MOL was not properly marketing our game at the
 Pro Janitor Police, or PJP, was a side-scrolling beat-em-up headed by our artist and animator at the time. We were playing around with a random game name generator at the time, when these three words popped up, and sparked a great amount of momentum and effort to create our next title.
 
 Pro Janitor Police was one of the biggest learning experiences for our team. We set the bar higher for ourselves this run through, as we gave ourselves a goal of featuring our game to the masses at PAX East. I stepped back from my role as a full designer in PJP, and decided to focus my efforts on sound, audio, and level design.
-
-<img src="C:\Users\siber\OneDrive\Documents\nextjs-blog\public\images\game-dev\Level1_Composite (For level 1 notes).png" alt="Level Design 1" style="zoom:75%;" />
 
 After several platform changes and many rush jobs to bring a demo to PAX East, the product was, to say the least, not in a very desirable form. We had a single level built on a platform called Construct, which in hindsight was more geared towards rapid prototyping and not the finalized product we were anticipating. We had bugs, as we were developing the prototype right up to the release day. But overall, we managed to overcome a great deal of hardships. The real important part was that we were engaging with people that were trying out the game and actually having a pretty good time with it. Our team definitely had focused on marketing and bringing our vision to the masses. I think in this instance, our focus was too much on the marketing and less on proper game design.
 

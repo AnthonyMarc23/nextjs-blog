@@ -1,6 +1,8 @@
 ---
 title: "Portfolio Website"
-image: "./public/images/portfolio/sweet-logo.png"
+image: "/../public/images/portfolio/sweet-logo.png"
+width: 350
+height: 300
 description: "This could be the most meta thing about this portfolio website; a page describing how this site was made. Alternatively, one could say that I have learned a lot of new tricks by doing the Figma designs for this portfolio of mine. I'd like to break down the design process in all of its detail."
 ---
 

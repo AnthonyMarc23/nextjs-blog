@@ -33,8 +33,8 @@ export default function Post({ postData }) {
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
           <Image
             src={postData.image}
-            height={"100%"}
-            width={"100%"}
+            width={postData.width}
+            height={postData.height}
             alt="image"
           /> 
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
