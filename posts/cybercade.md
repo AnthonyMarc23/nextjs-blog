@@ -1,10 +1,9 @@
 ---
 title: "Cybercade Esports"
-image: "/../public/images/cybercade/templogo-full-noback-quarter.png"
-width: 1795
-height: 388
 description: "Cybercade is a side project I'm working on. The idea was to create a floorplan layout and logos for an e-sports café."
 ---
+
+![Cybercade Logo](/images/cybercade/templogo-full-noback-quarter.png)
 
 [Cybercade Esports Center Figma File](https://www.figma.com/file/UCOR35llYNdWROQqNe8s3T/ESports-Cafe?node-id=0%3A1)
 

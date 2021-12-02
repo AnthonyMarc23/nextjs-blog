@@ -1,10 +1,9 @@
 ---
 title: "Zbox"
-image: "/../public/images/zbox/screenshot-2021-11-21.png"
-width: 2560
-height: 1310
 description: "Zbox is an ecommerce site for heavy machinery parts that takes a lot of influence from Amazon and McMaster-Carr's websites."
 ---
+
+![Zbox.com](/images/zbox/screenshot-2021-11-21.png)
 
 - Current Website: [Zbox.com](https://www.zbox.com)
 - Early Site Designs: [Figma Mocks](https://www.figma.com/file/SBMGPbcuKX5bKyntuT1dqg4k/Zbox-Comps-copy-Tony?node-id=0%3A50047)

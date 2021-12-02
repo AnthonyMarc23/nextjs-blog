@@ -1,6 +1,6 @@
 ---
 title: "Game Development"
-image: "/../public/images/game-dev/level1-composite.png"
+image: "/public/images/game-dev/level1-composite.png"
 width: 6170
 height: 1579
 description: "A collection of games that I have worked on in the past decade and beyond."
