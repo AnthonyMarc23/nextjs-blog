@@ -10,7 +10,11 @@ Over the last decade, my self-declared tenure as a game designer has been a self
 
 ### 30 Minutes... Or Less!
 
+![30 Minutes... Or Less!](/images/game-dev/title.png)
+
 30 Minutes... Or Less! was our first shipped title. It was a top-down 3D delivery driver game, where the goal of the player was to get the delivery to the destination on thirty minutes of game time or less. Minutes were exaggerated seconds, and the fast-pace of the game was to keep the whole premise interesting. Of course, driving safely is completely optional. By hitting ramps, you could perform insane jumps and stunts, that would net you bonuses for time, as well as collecting power-ups and extra cash. The physical goal of the game was to accumulate the most amount of cash each round until you had the high-score for tip money earned.
+
+![Game Screen Mobile](/images/game-dev/game-render-01.jpg)
 
 The player would progress in stages, where each stage had a number of set spawn points for delivery destinations with distances based on the difficulty of that stage. The stage timer is set to the length of a typical driving shift of around 2-3 hours, which in game time is around 2-3 minutes. During this time, the player begins at the shop, and 1-2 icons would be ready for the player to drive over, indicative of a delivery that needed to go out. Upon driving over the icon, an individual timer of 30 minutes (seconds) would start for each delivery, and the player would have to get to that destination in that time period before tips start to get docked. Each location is marked on the main screen as a hovering icon pointing in the general direction of the delivery.
 
@@ -18,11 +22,15 @@ To go, the player simply touches (or clicks and holds with their mouse) a spot o
 
 On smaller screens, this sometimes posed a problem as the car may be too big on the screen and seeing on the other side of your finger could be troublesome. To overcome the issue, we made sure that the camera zoomed out and also moved ahead of the car to show the most road ahead of the car when it was moving.
 
+![Game Screen Desktop](/images/game-dev/promo-screen-2.jpg)]
+
 Time and tips were shown in the top right and top left, accordingly, large enough to be visible but also sized appropriately as to take up as little screen real-estate as possible. We wanted to emphasize the importance of being able to get as much visual information as possible so that the player has time to react. We also wanted players to be able to see upcoming items once they were within a certain radius of an item, but due to constraints of time, we had to overlook this feature. Most items, including Dollars and Money Bags, were clearly visible with a golden glow around it to contrast against the grey and green which they often were driving over.
 
 We initially created 10 levels to start, and ended up completing 8 before we shipped. Each level used the same map, but had differing hazards, ramps and items to change up the potential game play. The map was also organized in such a way that the player could technically go "anywhere," but the delivery zones would appear in sections based on the difficulty of those sections. One poor design decision on my part was using cones that were sometimes immovable or movable rigid bodies. In some levels, the cones could physically not move, while in later levels, the cones were then switched to a movable rigid body. This confused some of the early testers and was a major red flag that I had to revisit, as I could not physically keep people from driving wherever they wanted to. I started to realize that half the fun was just exploring the map, even when you weren't making deliveries.
 
 The game ends when you miss enough deliveries during a level. This will get you fired, and returned to the main screen with your current score registered in the high score slot, if one of the highest.
+
+![30 Minutes... Promo Screen](/images/game-dev/promo-screen-30mol.jpg)
 
 This was my first major project that I had full creative design over, having been the level designer, game designer, and producer. We created 30MOL in Unity, and released to a (now defunct) 3rd party kid-friendly platform called Jabbersmack in 2012. Later, we released to the Google Play store in 2013, but took it down after we stopped supporting it.
 
@@ -30,17 +38,29 @@ One of our biggest failures for 30MOL was not properly marketing our game at the
 
 ### Pro Janitor Police
 
+![Pro Janitor Police Start Screen](/images/game-dev/StartScreenPJP.png)
+
 Pro Janitor Police, or PJP, was a side-scrolling beat-em-up headed by our artist and animator at the time. We were playing around with a random game name generator at the time, when these three words popped up, and sparked a great amount of momentum and effort to create our next title.
 
 Pro Janitor Police was one of the biggest learning experiences for our team. We set the bar higher for ourselves this run through, as we gave ourselves a goal of featuring our game to the masses at PAX East. I stepped back from my role as a full designer in PJP, and decided to focus my efforts on sound, audio, and level design.
 
-After several platform changes and many rush jobs to bring a demo to PAX East, the product was, to say the least, not in a very desirable form. We had a single level built on a platform called Construct, which in hindsight was more geared towards rapid prototyping and not the finalized product we were anticipating. We had bugs, as we were developing the prototype right up to the release day. But overall, we managed to overcome a great deal of hardships. The real important part was that we were engaging with people that were trying out the game and actually having a pretty good time with it. Our team definitely had focused on marketing and bringing our vision to the masses. I think in this instance, our focus was too much on the marketing and less on proper game design.
+![PJP Stage 1 Boss](/images/game-dev/PJPScreen7.jpg)
+
+After several platform changes and many rush jobs to bring a demo to PAX East, the product was, to say the least, not in a very desirable form. We had a single level built on a platform called Construct, which in hindsight was more geared towards rapid prototyping and not the finalized product we were anticipating. We had bugs, as we were developing the prototype right up to the big reveal day at PAX East. But overall, we managed to overcome a great deal of hardships. The real important part was that we were engaging with people that were trying out the game and actually having a pretty good time with it. Our team definitely had focused on marketing and bringing our vision to the masses. I think in this instance, our focus was too much on the marketing and less on proper game design.
+
+![PJP Stage 3](/images/game-dev/PJP_Screen11.jpg)
 
 When it is all said and done, I was still the producer for PJP, and it was under the guise of the business that I had formed, therefore, retaining legal ownership of the game. There was some disagreements and quarreling among peers which overall didn't end on the greatest note, and therefore the game never fully came to fruition.
+
+![PJP Mobile Controls](/images/game-dev/mobile-controls-concept.png)
 
 All in all, I still stand by my audio and sound design choices for the game, and I think that and the visuals really popped and made the game appealing. Had we been able to set aside our differences and focus on what we needed for execution, we could've really made PJP a great success.
 
 ### Warspace
+
+![Warspace Business Card](/images/game-dev/warspace-business-card.jpg)
+
+[WarSpace Card Game Rules](https://www.dropbox.com/s/9megyor5ljff1hs/Card%20Game%20v0.8_2.odt?dl=0)
 
 One of my hobbies for many years has been playing card games at our local game shops, with Southeast Michigan being saturated with 40+ locations at their height. During this time, I was inspired by Magic: The Gathering, and wanted to create something similar set in a Sci-Fi setting.
 
@@ -56,10 +76,14 @@ Warspace was one of my first big pushes to use Excel and to utilize stat blocks 
 
 ### Project Tsunami
 
+![Project Tsunami Characters](/images/game-dev/cast.png)
+
 Our latest game development project, currently named Project Tsunami, is an action RPG with heavy puzzle elements. Games like Zelda and Secret of Mana have been some anchors for our inspiration, and my partner and I have taken a lot of time deliberating how to break up the game into all the elements that we can handle without any outside help. As it is, my responsibilities on Tsunami include sound and music design, level design, game mechanics, story design, and Game Design Documentation, while his are primarily coding, architecture, art and animations. We plan on sharing marketing responsibilities, when we reach that point.
 
 For the first part of the design process, we spent a good amount of time deciding on a platform (Unity), language (C#), and production tools we wanted to use (GitHub, Jira, Oceansync, Google Apps, Machinations, Asprite). This would force us to stick with a template and execute on our game in such a way that we weren't switching mid-development like Pro Janitor Police or bringing in new tools mid design that would pivot us away from our goals.
 
-Our first checkpoint was to brainstorm the meat and potatoes of what our RPG is doing that will stand above the others; this comes in the form of our puzzles. Not only are we using the traditional level-based puzzling concepts (interactive doodads, pushing/shooting blocks or triggers, walking over plates, etc.) and story-based puzzles, but external puzzles, being actual literature, media, culture, and internet sources that exist within the real world. Our game will be short enough that a player can play it and still receive satisfaction from completing the game in the 7-10 hour time frame we have planned for the in-game story, but leave enough clues and and puzzle pieces that they realize playing through again will yield a different outcome. We have plans to make it obvious to those paying attention, that the game has not yet completed once they finished the first play through. 
+Our first checkpoint was to brainstorm the meat and potatoes of what our RPG is doing that will stand above the others; this comes in the form of our puzzles. Not only are we using the traditional level-based puzzling concepts (interactive doodads, pushing/shooting blocks or triggers, walking over plates, etc.) and story-based puzzles, but external puzzles, being actual literature, media, culture, and internet sources that exist within the real world. Our game will be short enough that a player can play it and still receive satisfaction from completing the game in the 7-10 hour time frame we have planned for the in-game story. Beyond that, we plan to implement ideas and concepts that extend the story if the player chooses to replay it, if they so choose. 
+
+![Item Popup Screen](/images/game-dev/item-popup-design.png)
 
 We have spent a lot of time fleshing out the GDD for this project, and as such, doing it on the side is a lot of time and effort against our day jobs. Working on this project has sparked my interest in pivoting from web development to game design and UX. I'm excited to tell a new story and engage the reader, user, player, or whomever you will, in something that inspires a sense of awe, wonder, adventure, excitement, mystery, and emotion. It's these experiences that can leave a lasting impression on the player, and keep them coming back for a new and exciting experience. But being able to create an experience that plays on a console and the real world is something I think would engage the user even further.
