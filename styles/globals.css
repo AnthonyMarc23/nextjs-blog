@@ -51,6 +51,7 @@ a {
 a:hover {
   color: #F0FFFF;
   text-shadow: 0px 0px 40px #00FFFF;
+  cursor: pointer;
 }
 
 .selected {
