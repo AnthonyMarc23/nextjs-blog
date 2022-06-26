@@ -3,19 +3,20 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const name = 'Anthony Drummond'
 export const siteTitle = 'Anthony\'s Portfolio'
 
 const name_img = 
   <Image
-  priority
-  src="/images/name_header.png"
-  className={utilStyles.borderCircle}
-  height={186}
-  width={500}
-  alt={name}
-/>
+    priority
+    src="/images/name_header.png"
+    className={utilStyles.borderCircle}
+    height={186}
+    width={500}
+    alt={name}
+  />
 
 const Layout = ({ children, home }) => {
   return (
@@ -41,9 +42,21 @@ const Layout = ({ children, home }) => {
       </Head>
       <header className={styles.header}>
         {home ? (
-          <>
+          <motion.div initial="hidden" animate="visible" variants={{
+            hidden: {
+              scale: .8,
+              opacity: 0
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              transition: {
+                delay: .4
+              }
+            },
+          }}>
             {name_img}
-          </>
+          </motion.div>
         ) : (
           <>
             <Link href="/">
